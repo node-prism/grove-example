@@ -18,11 +18,9 @@ class JwtService {
       return { valid: false, reason: `Failed to parse token: ${e.message}` };
     }
 
-    // if (result.exp || !result.sig) return false;
     if (!result.sig) return { valid: false, reason: "signature" };
     if (result.exp) return { valid: false, reason: "expired" };
 
-    // return true;
     return { valid: true };
   }
 }

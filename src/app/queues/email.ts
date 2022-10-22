@@ -7,7 +7,7 @@ export interface MailQueueTask {
 }
 
 export default async function({ recipient, subject, body }: MailQueueTask) {
-  // send an email?
+  // This function is the task that the queue worker will run when it becomes available.
 }
 
 export const queue = new Queue<MailQueueTask>({
