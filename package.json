@@ -11,7 +11,7 @@
     "#services/*": "./src/app/services/*",
     "#db/*": "./src/db/*"
   },
-  "author": "",
+  "author": "nvms",
   "license": "ISC",
   "devDependencies": {
     "@types/express": "^4.17.13",
