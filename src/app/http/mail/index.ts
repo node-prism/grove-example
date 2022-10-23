@@ -1,4 +1,4 @@
-import { Context, Respond } from "@prsm/server/http";
+import { Context, Respond } from "@prsm/grove/http";
 import { MailQueueTask, queue as mailQueue } from "../../queues/email";
 
 const onNew = ({ task }) => console.log("Created:", task.uuid);

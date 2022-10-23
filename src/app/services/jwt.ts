@@ -1,4 +1,4 @@
-import { decode, encode, verify } from "@prsm/server/jwt";
+import { decode, encode, verify } from "@prsm/grove/jwt";
 
 class JwtService {
   createAccessToken({ ...rest }): string {

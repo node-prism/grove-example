@@ -1,5 +1,5 @@
-import { Context } from "@prsm/server/http";
-import { log, LogLevel } from "@prsm/server/shared";
+import { Context } from "@prsm/grove/http";
+import { log, LogLevel } from "@prsm/grove/shared";
 
 export default [
   async (c: Context) => {

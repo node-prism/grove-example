@@ -1,6 +1,6 @@
 import { db } from "#db/index";
 import JwtService from "#services/jwt";
-import { hash } from "@prsm/server/hash";
+import { hash } from "@prsm/grove/hash";
 
 export type PublicUser = {
   id?: number;

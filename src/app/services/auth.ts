@@ -1,5 +1,5 @@
-import { PrismApp } from "@prsm/server";
-import { Connection } from "@prsm/server/ws";
+import { PrismApp } from "@prsm/grove";
+import { Connection } from "@prsm/grove/ws";
 
 export default class SocketAuthTracker {
   static authenticatedSocketIds: Connection[] = [];

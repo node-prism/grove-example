@@ -1,4 +1,4 @@
-import Queue from "@prsm/server/queues";
+import Queue from "@prsm/grove/queues";
 
 export interface MailQueueTask {
   recipient: string;

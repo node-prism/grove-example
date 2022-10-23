@@ -22,6 +22,6 @@
   },
   "dependencies": {
     "@prsm/db": "^1.6.3",
-    "@prsm/server": "^1.6.0"
+    "@prsm/grove": "^1.6.1"
   }
 }

@@ -1,6 +1,6 @@
 import Jwt from "#services/jwt";
-import useCache from "@prsm/server/cache";
-import { Context, Respond } from "@prsm/server/http";
+import useCache from "@prsm/grove/cache";
+import { Context, Respond } from "@prsm/grove/http";
 
 export default async function (c: Context, { bearer }: { bearer: string }) {
   if (!bearer) return Respond.BadRequest(c, "Expected bearer token.");

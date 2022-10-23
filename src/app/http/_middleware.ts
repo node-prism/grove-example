@@ -1,6 +1,6 @@
-import { Context } from "@prsm/server/http";
-import { log, LogLevel } from "@prsm/server/shared";
-import throttle from "@prsm/server/throttle";
+import { Context } from "@prsm/grove/http";
+import { log, LogLevel } from "@prsm/grove/shared";
+import throttle from "@prsm/grove/throttle";
 
 export default [
   async (c: Context) => {

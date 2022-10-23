@@ -1,4 +1,4 @@
-import { createApi } from "@prsm/server";
+import { createApi } from "@prsm/grove";
 import express from "express";
 import { Request, Response, NextFunction } from "express";
 import { createServer } from "http";

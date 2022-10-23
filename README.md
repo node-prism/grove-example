@@ -1,1 +1,1 @@
-This is a contrived example project to demonstrate, in general, how to use [github.com/node-prism/server](https://github.com/node-prism/server).
+This is a contrived example project to demonstrate, in general, how to use [github.com/node-prism/grove](https://github.com/node-prism/grove).

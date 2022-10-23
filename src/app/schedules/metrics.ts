@@ -1,4 +1,4 @@
-import { Schedule } from "@prsm/server/schedules";
+import { Schedule } from "@prsm/grove/schedules";
 
 export default async function() {
   // generate important metrics and deliver them to important people

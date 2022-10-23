@@ -1,4 +1,4 @@
-import { Context } from "@prsm/server/ws";
+import { Context } from "@prsm/grove/ws";
 import SocketAuthTracker from "../services/auth";
 
 export default async function (c: Context) {

@@ -1,4 +1,4 @@
-import { Context, Respond } from "@prsm/server/http";
+import { Context, Respond } from "@prsm/grove/http";
 import UserService from "#services/user";
 import validateBearerJwt from "../../http_middlewares/validate-bearer-jwt";
 

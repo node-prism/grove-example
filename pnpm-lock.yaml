@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@prsm/db': ^1.6.3
-  '@prsm/server': ^1.6.0
+  '@prsm/grove': ^1.6.1
   '@types/express': ^4.17.13
   '@types/node': ^17.0.35
   express: ^4.18.1
@@ -11,7 +11,7 @@ specifiers:
 
 dependencies:
   '@prsm/db': 1.6.3
-  '@prsm/server': 1.6.0
+  '@prsm/grove': 1.6.1
 
 devDependencies:
   '@types/express': 4.17.13
@@ -72,8 +72,8 @@ packages:
       lodash: 4.17.21
     dev: false
 
-  /@prsm/server/1.6.0:
-    resolution: {integrity: sha512-+R0WRyy5IGSl9AtxlN+A5utYT28muC2mI0+A7ZpFeAg/dzh1BYGrTKbe+TpKyN6KR3n1cvA/ux+KpjYMDgRmnQ==}
+  /@prsm/grove/1.6.1:
+    resolution: {integrity: sha512-ZifmKh5OeNxoXlY7kMNW1K6dMZfk9+qs78Q/Ermb42IECDsyPCoYe95GwTgGXUTtKN4i1l656YdOdKUy2PeG1Q==}
     dependencies:
       '@types/ws': 8.5.3
       chalk: 5.1.2
