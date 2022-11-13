@@ -12,6 +12,7 @@ class UserService {
   constructor() {
     db.users.drop();
     db.users.insert({ email: "admin@admin.com", password: hash.encode("admin") });
+    db.users.insert({ email: "user@user.com", password: hash.encode("user") });
   }
 
   async createUser({ ...rest }): Promise<{ ok: boolean; reason?: string }> {

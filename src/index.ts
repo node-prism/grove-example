@@ -38,7 +38,7 @@ try {
   // SocketAuthTracker requires prism.wss, so it's initialized after createApi happens.
   SocketAuthTracker.init(prism);
 
-  const port = process.env.HTTP_PORT || 3000;
+  const port = process.env.PORT || 4000;
 
   prism.server.listen(port);
   prism.server.on("listening", () => {
