@@ -58,11 +58,11 @@ class UserService {
     email: string,
     password: string
   ): Promise<{ ok: boolean; token?: string; reason?: string }> {
-    if (!email || !password) return { ok: false, reason: "empty" };
+    if (!email || !password) return { ok: false, reason: "missing credentials" };
 
     const user = db.users.find({ email })[0];
     if (!user || !hash.verify(user.password, password)) {
-      return { ok: false, reason: "invalid" };
+      return { ok: false, reason: "invalid credentials" };
     }
 
     const token = JwtService.createAccessToken({ email });
