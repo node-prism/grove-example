@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@prsm/db': ^1.6.3
-  '@prsm/grove': ^1.6.3
+  '@prsm/grove': ^1.6.4
   '@types/express': ^4.17.13
   '@types/node': ^17.0.35
   express: ^4.18.1
@@ -11,7 +11,7 @@ specifiers:
 
 dependencies:
   '@prsm/db': 1.6.3
-  '@prsm/grove': 1.6.3
+  '@prsm/grove': 1.6.4
 
 devDependencies:
   '@types/express': 4.17.13
@@ -72,10 +72,10 @@ packages:
       lodash: 4.17.21
     dev: false
 
-  /@prsm/grove/1.6.3:
-    resolution: {integrity: sha512-8+eTJQJ3m5hSK/KmObeba2axfmvQNgOopSiGwDKcIjmPQLshdoC05l0ovK378mg0shTCvfSHW41iW1O2VeR6oQ==}
+  /@prsm/grove/1.6.4:
+    resolution: {integrity: sha512-0Hx5ymPpDYyN2JI6JYctajrzDa07kD36+Fsxbb1vakH1yHJYgsAiAmkFH2mRjqkgsrQCdHag5i9ViwIMbd8kWw==}
     dependencies:
-      '@prsm/keepalive-ws': 0.1.7
+      '@prsm/keepalive-ws': 0.1.8
       '@types/ws': 8.5.3
       chalk: 5.1.2
       dotenv: 16.0.3
@@ -92,8 +92,8 @@ packages:
       - utf-8-validate
     dev: false
 
-  /@prsm/keepalive-ws/0.1.7:
-    resolution: {integrity: sha512-0/liMRmZS+M9QSydBPTez6UxZ1Grrke4/V0mIh8m5aRh3Dbxa8msHGWl9HO4fDQc6l+ClYjgMWHlGg8wKoCkgA==}
+  /@prsm/keepalive-ws/0.1.8:
+    resolution: {integrity: sha512-p1OP4lY1Kd25vqarKdgGLYRp8QhtIzmC+i24rwqNxohWGBRtBz0fyHHSu5hgvQMFmXqqKG5mtd93D37eECD18g==}
     dependencies:
       ws: 8.11.0
     transitivePeerDependencies:
