@@ -7,12 +7,14 @@ export default class SocketAuthTracker {
   static init(app: PrismApp) {
     app.wss.on("connected", (connection: Connection) => {
       connection.send({ command: "hello:world", payload: { hello: "world" } });
+      app.wss.addToRoom("online", connection);
     });
     app.wss.on("close", (connection: Connection) => {
       SocketAuthTracker.authenticatedSocketIds =
         SocketAuthTracker.authenticatedSocketIds.filter(
           (c) => c.id !== connection.id
         );
+      app.wss.removeFromRoom("online", connection);
     });
   }
 
