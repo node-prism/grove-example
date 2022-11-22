@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@prsm/db': ^1.6.3
-  '@prsm/grove': ^1.6.1
+  '@prsm/grove': ^1.6.2
   '@types/express': ^4.17.13
   '@types/node': ^17.0.35
   express: ^4.18.1
@@ -11,7 +11,7 @@ specifiers:
 
 dependencies:
   '@prsm/db': 1.6.3
-  '@prsm/grove': 1.6.1
+  '@prsm/grove': 1.6.2
 
 devDependencies:
   '@types/express': 4.17.13
@@ -72,9 +72,10 @@ packages:
       lodash: 4.17.21
     dev: false
 
-  /@prsm/grove/1.6.1:
-    resolution: {integrity: sha512-ZifmKh5OeNxoXlY7kMNW1K6dMZfk9+qs78Q/Ermb42IECDsyPCoYe95GwTgGXUTtKN4i1l656YdOdKUy2PeG1Q==}
+  /@prsm/grove/1.6.2:
+    resolution: {integrity: sha512-jIVi4HyNWKE4M2H6KZz6cVlcBwDgCYDDRbtqMy6bZZniP3XrMUzP8XXX0IBa8IycbSpL0GNX+aZCQEf9ZcCdww==}
     dependencies:
+      '@prsm/keepalive-ws': 0.1.6
       '@types/ws': 8.5.3
       chalk: 5.1.2
       dotenv: 16.0.3
@@ -84,10 +85,19 @@ packages:
       fast-glob: 3.2.12
       node-cron: 3.0.0
       path-to-regexp: 6.2.1
-      ws: 8.9.0
+      ws: 8.11.0
     transitivePeerDependencies:
       - bufferutil
       - supports-color
+      - utf-8-validate
+    dev: false
+
+  /@prsm/keepalive-ws/0.1.6:
+    resolution: {integrity: sha512-Ifa+O2OtXsI1+oBlX6fIV8X5zIhKCgjAgLrq0lPNkGnMFKICjzjMaySbEbgcvDiE+IsLJiVU7cqWTZgDDus6Wg==}
+    dependencies:
+      ws: 8.11.0
+    transitivePeerDependencies:
+      - bufferutil
       - utf-8-validate
     dev: false
 
@@ -846,8 +856,8 @@ packages:
       is-extendable: 0.1.1
     dev: false
 
-  /moment-timezone/0.5.38:
-    resolution: {integrity: sha512-nMIrzGah4+oYZPflDvLZUgoVUO4fvAqHstvG3xAUnMolWncuAiLDWNnJZj6EwJGMGfb1ZcuTFE6GI3hNOVWI/Q==}
+  /moment-timezone/0.5.39:
+    resolution: {integrity: sha512-hoB6suq4ISDj7BDgctiOy6zljBsdYT0++0ZzZm9rtxIvJhIbQ3nmbgSWe7dNFGurl6/7b1OUkHlmN9JWgXVz7w==}
     dependencies:
       moment: 2.29.4
     dev: false
@@ -870,7 +880,7 @@ packages:
     resolution: {integrity: sha512-DDwIvvuCwrNiaU7HEivFDULcaQualDv7KoNlB/UU1wPW0n1tDEmBJKhEIE6DlF2FuoOHcNbLJ8ITL2Iv/3AWmA==}
     engines: {node: '>=6.0.0'}
     dependencies:
-      moment-timezone: 0.5.38
+      moment-timezone: 0.5.39
     dev: false
 
   /object-inspect/1.12.2:
@@ -1053,8 +1063,8 @@ packages:
     resolution: {integrity: sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=}
     engines: {node: '>= 0.8'}
 
-  /ws/8.9.0:
-    resolution: {integrity: sha512-Ja7nszREasGaYUYCI2k4lCKIRTt+y7XuqVoHR44YpI49TtryyqbqvDMn5eqfW7e6HzTukDRIsXqzVHScqRcafg==}
+  /ws/8.11.0:
+    resolution: {integrity: sha512-HPG3wQd9sNQoT9xHyNCXoDUa+Xw/VevmY9FoHyQ+g+rrMn4j6FB4np7Z0OhdTgjx6MgQLK7jwSy1YecU1+4Asg==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
