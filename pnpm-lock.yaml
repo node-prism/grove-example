@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@prsm/db': ^1.6.3
-  '@prsm/grove': ^1.6.5
+  '@prsm/grove': ^1.7.0
   '@types/express': ^4.17.13
   '@types/node': ^17.0.35
   express: ^4.18.1
@@ -11,7 +11,7 @@ specifiers:
 
 dependencies:
   '@prsm/db': 1.6.3
-  '@prsm/grove': 1.6.5
+  '@prsm/grove': 1.7.0
 
 devDependencies:
   '@types/express': 4.17.13
@@ -61,7 +61,7 @@ packages:
     engines: {node: '>= 8'}
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
-      fastq: 1.13.0
+      fastq: 1.14.0
     dev: false
 
   /@prsm/db/1.6.3:
@@ -72,12 +72,12 @@ packages:
       lodash: 4.17.21
     dev: false
 
-  /@prsm/grove/1.6.5:
-    resolution: {integrity: sha512-uKz1AjtKKuEIAUNxNtSNNxPggnGr8rS+lFfXlqqSgx78oMIMLDqcntPu1PkysnyeqystWaaT3kuJAJ6g7PO8pQ==}
+  /@prsm/grove/1.7.0:
+    resolution: {integrity: sha512-jDa1+cICgulgotM04bK9YL5Qt0n+r3rDZ60I/tM32ESrVvqfqVntQv2yn0z1g6+BH3tc6MWQpwOBc5zPXrV2hA==}
     dependencies:
       '@prsm/keepalive-ws': 0.2.0
       '@types/ws': 8.5.3
-      chalk: 5.1.2
+      chalk: 5.2.0
       dotenv: 16.0.3
       ecdsa-sig-formatter: 1.0.11
       ejs: 3.1.8
@@ -241,8 +241,8 @@ packages:
       supports-color: 7.2.0
     dev: false
 
-  /chalk/5.1.2:
-    resolution: {integrity: sha512-E5CkT4jWURs1Vy5qGJye+XwCkNj7Od3Af7CP6SujMetSMkLs8Do2RWJK5yx1wamHV/op8Rz+9rltjaTQWDnEFQ==}
+  /chalk/5.2.0:
+    resolution: {integrity: sha512-ree3Gqw/nazQAPuJJEy+avdl7QfZMcUvmHIKgEZkGL+xOBzRvup5Hxo6LHuMceSxOabuJLJm5Yp/92R9eMmMvA==}
     engines: {node: ^12.17.0 || ^14.13 || >=16.0.0}
     dev: false
 
@@ -612,8 +612,8 @@ packages:
       micromatch: 4.0.5
     dev: false
 
-  /fastq/1.13.0:
-    resolution: {integrity: sha512-YpkpUnK8od0o1hmeSc7UUs/eB/vIPWJYjKck2QKIzAf71Vm1AAQ3EbuZB3g2JIy+pg+ERD0vqI79KyZiB2e2Nw==}
+  /fastq/1.14.0:
+    resolution: {integrity: sha512-eR2D+V9/ExcbF9ls441yIuN6TI2ED1Y2ZcA5BmMtJsOkWOFRJQ0Jt0g1UwqXJJVAb+V+umH5Dfr8oh4EVP7VVg==}
     dependencies:
       reusify: 1.0.4
     dev: false
@@ -621,7 +621,7 @@ packages:
   /filelist/1.0.4:
     resolution: {integrity: sha512-w1cEuf3S+DrLCQL7ET6kz+gmlJdbq9J7yXCSjK/OZCPA+qEN1WyF4ZAf0YYJa4/shHJra2t/d/r8SV4Ji+x+8Q==}
     dependencies:
-      minimatch: 5.1.0
+      minimatch: 5.1.1
     dev: false
 
   /fill-range/7.0.1:
@@ -841,8 +841,8 @@ packages:
       brace-expansion: 1.1.11
     dev: false
 
-  /minimatch/5.1.0:
-    resolution: {integrity: sha512-9TPBGGak4nHfGZsPBohm9AWg6NoT7QTCehS3BIJABslyZbzxfV78QM2Y6+i741OPZIafFAaiiEMh5OyIrJPgtg==}
+  /minimatch/5.1.1:
+    resolution: {integrity: sha512-362NP+zlprccbEt/SkxKfRMHnNY85V74mVnpUpNyr3F35covl09Kec7/sEFLt3RA4oXmewtoaanoIf67SE5Y5g==}
     engines: {node: '>=10'}
     dependencies:
       brace-expansion: 2.0.1
