@@ -1,6 +1,6 @@
 {
   "name": "grove-example",
-  "version": "1.0.1",
+  "version": "1.1.1",
   "description": "",
   "main": "src/index.ts",
   "type": "module",
@@ -22,6 +22,6 @@
   },
   "dependencies": {
     "@prsm/db": "^1.6.3",
-    "@prsm/grove": "^1.7.0"
+    "@prsm/grove": "^1.7.3"
   }
 }
