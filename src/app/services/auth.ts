@@ -1,10 +1,10 @@
-import { PrismApp } from "@prsm/grove";
+import { GroveApp } from "@prsm/grove";
 import { Connection } from "@prsm/grove/ws";
 
 export default class SocketAuthTracker {
   static authenticatedSocketIds: Connection[] = [];
 
-  static init(app: PrismApp) {
+  static init(app: GroveApp) {
     app.wss.on("connected", (connection: Connection) => {
       connection.send({ command: "hello:world", payload: { hello: "world" } });
       app.wss.addToRoom("online", connection);
