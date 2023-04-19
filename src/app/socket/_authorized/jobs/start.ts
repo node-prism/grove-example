@@ -1,5 +1,4 @@
 import { Context } from "@prsm/grove/ws";
-import { execArgv } from "process";
 
 // wscat -c ws://localhost:3002/ -x '{"command":"/jobs/start", "payload":{ "token": "eyJhbGciOiJIUzI1NiIsInR5cGUiOiJKV1QifQ.eyJlbWFpbCI6ImNocm9tYWduYUBwcm90b25tYWlsLmNvbSIsImlhdCI6MTY1MzYyMjEyNjM3MCwiZXhwIjoxNjUzNjIyMTI2MzkwfQ.hecr95eESwm5KeBNsfwEoVmNC9y581tMuYSn0pZjszE" }}'
 export default async function (c: Context) {
